@@ -22,11 +22,11 @@ searchHidden: false
 
 # Cover Image Configuration
 cover:
-  image: "images/geom-cover.png" # path relative to your static/ folder or a full URL
+  image: "geom-cover.png"
   alt: "The cover image of the post"
   caption: ""
-  relative: false # when true, path is relative to the post folder
-  hidden: false # hide cover image from the post page itself, keep on list page
+  relative: true
+  hidden: false
   hiddenInList: true
 ---
 
