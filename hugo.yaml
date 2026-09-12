@@ -1,0 +1,29 @@
+baseURL: https://srimaln91.com/
+locale: en-us
+title: SRIMAL NISHANTHA
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: |
+      <img src="/images/profile.png" alt="Profile" style="width:120px; height:120px; border-radius:50%; margin-bottom:10px;"><br>
+      Welcome to my blog. I write some random stuff here, mostly.
+menu:
+  main:
+    - name: "Archive"
+      url: "/archives/"
+      weight: 10
+    - name: "About"
+      url: "/about/"
+      weight: 11
+    - name: Github
+      url: "https://www.github.com/srimaln91"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/srimaln91/"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
